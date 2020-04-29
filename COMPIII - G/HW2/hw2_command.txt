@@ -1,0 +1,68 @@
+
+D:\COMPIII\HW2>hw2
+No parameters chosen
+Defaulting to integers (-i) option
+3 4 5
+3 4 5 Right Scalene triangle
+1 1 9
+1 1 9 Not a triangle
+5 5 5
+5 5 5 Equilateral triangle
+-4 9 8
+Non positive numbers or zeros are not allowed
+
+D:\COMPIII\HW2>hw2 -i
+Operator chosen: i
+3 4 5
+3 4 5 Right Scalene triangle
+1 1 9
+1 1 9 Not a triangle
+3 3 5
+3 3 5 Isosceles triangle
+0 0 0
+Non positive numbers or zeros are not allowed
+
+D:\COMPIII\HW2>hw2 -d
+Operator chosen: d
+1 1.01 1
+1.00000 1.00000 1.01000 Isosceles triangle
+1 1.00001 1
+1.00000 1.00000 1.00001 Equilateral triangle
+3 4 5.00002
+3.00000 4.00000 5.00002 Scalene triangle
+3 4 5
+3.00000 4.00000 5.00000 Right Scalene triangle
+0 0 0
+Non positive numbers or zeros are not allowed
+
+D:\COMPIII\HW2>hw2 3 4 5
+Defaulting to integers (-i) option
+3 4 5 Right Scalene triangle
+
+D:\COMPIII\HW2>hw2 10 10 19
+Defaulting to integers (-i) option
+10 10 19 Isosceles triangle
+
+D:\COMPIII\HW2>hw2 -i 1 1 1
+Operator chosen: i
+1 1 1 Equilateral triangle
+9 9 10
+9 9 10 Isosceles triangle
+0 0 2
+Non positive numbers or zeros are not allowed
+
+D:\COMPIII\HW2>hw2 -d 1 1.01 1
+Operator chosen: d
+1.00000 1.00000 1.01000 Isosceles triangle
+1 1 -1
+Non positive numbers or zeros are not allowed
+
+D:\COMPIII\HW2>hw2 -d 1 1.01 1 5
+Operator chosen: d
+Three values are expected ex. HW2 -option value1 value2 value3
+
+D:\COMPIII\HW2>hw2 -i 3 4
+Operator chosen: i
+Three values are expected ex. HW2 -option value1 value2 value3
+
+D:\COMPIII\HW2>

@@ -1,0 +1,67 @@
+d:\COMPIII\HW3>hw3
+No parameters chosen
+Defaulting to integers (-i) option
+3 5 4
+3 4 5 Right Scalene triangle
+1 1 9
+1 1 9 Not a triangle
+^C
+d:\COMPIII\HW3>hw3 10 10 19
+Defaulting to integers (-i) option
+10 10 19 Isosceles triangle
+
+d:\COMPIII\HW3>hw3 11 20 11
+Defaulting to integers (-i) option
+11 11 20 Isosceles triangle
+
+d:\COMPIII\HW3>hw3 -i
+Operator chosen: i
+9 1 1
+1 1 9 Not a triangle
+3 4 5
+3 4 5 Right Scalene triangle
+3 3 4
+3 3 4 Isosceles triangle
+^C
+d:\COMPIII\HW3>hw3 -d
+Operator chosen: d
+1.01 1 1
+1.00000 1.00000 1.01000 Isosceles triangle
+1.00001 1 1
+1.00000 1.00000 1.00001 Equilateral triangle
+3 4 5
+3.00000 4.00000 5.00000 Right Scalene triangle
+3 4 5.00002
+3.00000 4.00000 5.00002 Scalene triangle
+^C
+d:\COMPIII\HW3>hw3 -i 1 1 2
+Operator chosen: i
+1 1 2 Not a triangle
+
+d:\COMPIII\HW3>hw3 -i 1 1 1
+Operator chosen: i
+1 1 1 Equilateral triangle
+
+d:\COMPIII\HW3>hw3 -i 50 50 90
+Operator chosen: i
+50 50 90 Isosceles triangle
+
+d:\COMPIII\HW3>hw3 -i 6 10 8
+Operator chosen: i
+6 8 10 Right Scalene triangle
+
+d:\COMPIII\HW3>hw3 -d 1 1 9
+Operator chosen: d
+1.00000 1.00000 9.00000 Not a triangle
+
+d:\COMPIII\HW3>hw3 -d 5 4 3
+Operator chosen: d
+3.00000 4.00000 5.00000 Right Scalene triangle
+
+d:\COMPIII\HW3>hw3 -d 1.01 1 1
+Operator chosen: d
+1.00000 1.00000 1.01000 Isosceles triangle
+
+d:\COMPIII\HW3>hw3 -d 1 1 1.00001
+Operator chosen: d
+1.00000 1.00000 1.00001 Equilateral triangle
