@@ -1,11 +1,3 @@
-/*
-Group 4
-Javier Hernandez
-Eli Sears
-Robert Lyle
-Matthew Baresch
-*/
-
 #include <iostream>
 #include <math.h>
 #include <vector>
